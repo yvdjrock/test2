@@ -1,9 +1,9 @@
 #! /bin/bash
 printf "Installing RDP Be Patience... " >&2
 {
-sudo useradd -m freemiumbox
-sudo adduser freemiumbox sudo
-echo 'freemiumbox:8081' | sudo chpasswd
+sudo useradd -m Yash
+sudo adduser Yash sudo
+echo 'Yash:8081' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
